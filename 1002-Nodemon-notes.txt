@@ -1,0 +1,59 @@
+Nodemon - Watch our files and restart our app for us.
+
+We should install nodemon as dev dependency
+command: npm i nodemon -D or --save-dev
+
+Dev dependencies use for developing phase not in production phase.
+Example dependencies we install as dev dependencies 
+    1.testing dependencies. 
+
+  //   "devDependencies": {
+  //  "nodemon": "^2.0.20"
+  //   }
+
+
+  After changing scripts in package.json like this
+
+  // "scripts": {
+  //  "start": "node app.js"
+  // }
+
+  We can run the app.js like this
+
+    E:\study materials\YoutubePlaylist\coding addict\tutorials> npm start
+
+
+
+
+ If we change scripts in package.json like this
+
+    // "scripts": {
+    //"start": "nodemon app.js"
+    //}
+
+
+we can run our file like this
+
+
+PS E:\study materials\YoutubePlaylist\coding addict\tutorials> npm start
+
+> tutorials@1.0.0 start E:\study materials\YoutubePlaylist\coding addict\tutorials
+> nodemon app.js
+
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node app.js`
+[ 1, 2, 3, 4 ]
+hello people
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[ 1, 2, 3, 4 ]
+hello
+[nodemon] clean exit - waiting for changes before restart
+
+
+
+

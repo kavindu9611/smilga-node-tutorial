@@ -23,6 +23,8 @@ If our cloned project have package.json file npm will look the dependencies in p
 install the node modules for our cloned project.
 
 
-hfbefbeiieeieifififuhuhuhuhuhuhuhuhuhue
-dfuufhufhuhuehuehuhgughughughugheugughughug
-ffufuhuhuhgugugugogghg
+HOW TO PUSH CHANGES TO THE github
+1. git add .
+2.git commit -m "first commit"
+3.git push https://github.com/kavindu9611/smilga-node-tutorial.git
+
