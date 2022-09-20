@@ -1,0 +1,23 @@
+.gitignore is just a file that specified
+which files source control should ignore
+
+1.Initialize an empty git repo - git init
+2. git add .
+3.git commit -m "first commit"
+
+push an existing repository from the command line
+1.git remote add origin https://github.com/kavindu9611/smilga-node-tutorial.git
+2.git branch -M main
+3.git push -u origin main
+
+
+HOW TO CLONE A PROJECT
+
+copy the url of the repository
+Then open command line
+1. cd desktop
+2.git clone url
+Then we should get node module for our clone project
+So type this command in terminal  - npm install
+If our cloned project have package.json file npm will look the dependencies in package.json and
+install the node modules for our cloned project.
