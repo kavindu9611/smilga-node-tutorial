@@ -56,4 +56,13 @@ hello
 
 
 
+//UNINSTALL A PACKAGE  - npm uninstall packageName 
+
+ 
+
+
+
+
+
+
 

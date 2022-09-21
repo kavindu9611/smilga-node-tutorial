@@ -5,7 +5,6 @@
   "main": "01-intro.js",
   "scripts": {
     "start": "nodemon app.js"
-    
   },
   "keywords": [],
   "author": "",

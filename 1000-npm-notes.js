@@ -13,6 +13,11 @@
 //npm init
 //npm init -y(everything default)
 
+
+//PACKAGE-LOCK.JSON
+    //Contain versions for all the packages not only for dependencies.
+
+
 //1.Install lodash npm dependency
 
 const _ = require('lodash')
