@@ -4,7 +4,7 @@
 //EventEmitter is a class
 
 // get back the class
-// if want custom extend from class
+// if want custom extend from class(If you want to create something custom you should extend from the class)
 // otherwise just for emitting and handling events create instance
 
 const EventEmitter = require('events')
@@ -25,3 +25,8 @@ customEmitter.on('response', ()=>{
 })
 
 customEmitter.emit('response','kavindu',26)
+
+
+
+//emit -We use for raise an event
+//emit signalling that an event as happend.
