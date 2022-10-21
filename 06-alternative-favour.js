@@ -5,4 +5,4 @@ const person = {
 
 module.exports.singlePerson = person
 
-
+console.log(module)

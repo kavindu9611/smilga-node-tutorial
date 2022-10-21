@@ -7,3 +7,4 @@ const peter = 'peter12'
 module.exports = { john, peter }
 
 
+console.log(module)
